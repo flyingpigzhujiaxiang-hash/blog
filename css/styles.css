@@ -46,7 +46,7 @@ html, body {
   font-family: var(--font-sans);
   color: var(--text);
   background:
-    radial-gradient(1200px 600px at 50% -10%, rgba(10,132,255,0.10), transparent 60%),
+    radial-gradient(1200px 550px at 50% -10%, rgba(10,132,255,0.10), transparent 60%),
     linear-gradient(180deg, var(--bg-2), var(--bg));
   background-attachment: fixed;
   text-rendering: optimizeLegibility;
@@ -117,7 +117,7 @@ body {
 
 
 .brand {
-  font-weight: 600;
+  font-weight: 550;
   letter-spacing: 0.6px;
   font-family: var(--font-serif);
   display: flex;
@@ -295,7 +295,7 @@ body {
 }
 
 .post-title {
-  font-weight: 600;
+  font-weight: 550;
   margin-bottom: 6px;
   font-family: var(--font-serif);
   letter-spacing: 0.2px;
@@ -442,6 +442,7 @@ body {
   .post-title { font-size: 16px; }
   .reader { font-size: 16px; }
 }
+
 
 
 
